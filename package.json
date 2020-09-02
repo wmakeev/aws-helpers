@@ -1,6 +1,6 @@
 {
   "name": "@wmakeev/aws-helpers",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Common AWS helpers for my projects",
   "author": "Vitaliy V. Makeev",
   "main": "build/src/index.js",
@@ -16,7 +16,7 @@
     "compile": "tsc",
     "compile:prod": "tsc --build tsconfig.deploy.json",
     "fix": "gts fix",
-    "prepare": "npm run compile",
+    "prepare": "npm run build:prod",
     "pretest": "npm run compile",
     "posttest": "npm run check"
   },
